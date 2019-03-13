@@ -6,6 +6,8 @@ import React from "react";
 import NavBar from "./components/NavBar";
 import Jumbotron from "./components/Jumbotron";
 import CardSearch from "./components/CardSearch";
+import CardResults from "./components/CardResults";
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <NavBar />
         <Jumbotron />
         <CardSearch />
+        <CardResults />
       </div>
   );
 }
