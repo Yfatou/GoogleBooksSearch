@@ -17,6 +17,7 @@ const CardSearch = () => (
                 <div className = "pull-right">
                     <button type = "submit" class = "btn btn-lg btn-secondary">Search
                     </button>
+                    <button type="submit" onClick={(e) => props.handleSearchClick(e)}>Search</button>
                 </div>
             </form>
         </div>
