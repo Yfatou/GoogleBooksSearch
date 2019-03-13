@@ -5,12 +5,14 @@ import React from "react";
 // import NoMatch from "./pages/NoMatch";
 import NavBar from "./components/NavBar";
 import Jumbotron from "./components/Jumbotron";
+import CardSearch from "./components/CardSearch";
 
 function App() {
   return (
       <div>
         <NavBar />
         <Jumbotron />
+        <CardSearch />
       </div>
   );
 }
