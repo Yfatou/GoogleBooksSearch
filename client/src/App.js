@@ -4,11 +4,13 @@ import React from "react";
 // import Detail from "./pages/Detail";
 // import NoMatch from "./pages/NoMatch";
 import NavBar from "./components/NavBar";
+import Jumbotron from "./components/Jumbotron";
 
 function App() {
   return (
       <div>
         <NavBar />
+        <Jumbotron />
       </div>
   );
 }
