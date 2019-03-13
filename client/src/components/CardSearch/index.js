@@ -11,7 +11,7 @@ const CardSearch = () => (
         <div className = "card-body">
             <form>
                 <div className = "form-group">
-                    <label for = "Query">What Book are you looking for...</label>
+                    <label htmlFor = "Query">What Book are you looking for...</label>
                     <input className = "form-control" id = "Title" type = "text" placeholder = "Ready Player One" name = "q" required value></input>
                 </div>
                 <div className = "pull-right">

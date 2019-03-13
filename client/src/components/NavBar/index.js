@@ -9,12 +9,12 @@ function NavBar() {
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/search">Search</a>
+            <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li className="nav-item active">
+                    <a className="nav-link" href="/search">Search</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/saved">Saved</a>
+                <li className="nav-item">
+                    <a className="nav-link" href="/saved">Saved</a>
                 </li>
             </ul>
         </div>
